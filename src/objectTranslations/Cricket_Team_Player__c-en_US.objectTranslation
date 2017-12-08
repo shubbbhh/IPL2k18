@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Cricket Team Player</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Cricket Team Players</value>
+    </caseValues>
+    <fields>
+        <help><!-- Store Player value here. --></help>
+        <label><!-- Cricket Player --></label>
+        <name>Cricket_Player__c</name>
+        <relationshipLabel><!-- Cricket Players --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Store team value. --></help>
+        <label><!-- Cricket Team --></label>
+        <name>Cricket_Team__c</name>
+        <relationshipLabel><!-- Cricket Team --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Store your Player&apos;s Status &quot;In Playing Eleven&quot; for specific team. --></help>
+        <label><!-- In Playing XI --></label>
+        <name>In_Playing_XI__c</name>
+    </fields>
+    <fields>
+        <help><!-- Total Points Recalculated --></help>
+        <label><!-- Total Points Recalculated --></label>
+        <name>Total_Points_Recalculated__c</name>
+    </fields>
+    <fields>
+        <help><!-- Total Points --></help>
+        <label><!-- Total Points --></label>
+        <name>Total_Points__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

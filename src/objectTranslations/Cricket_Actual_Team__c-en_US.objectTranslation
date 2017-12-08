@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Cricket Actual Team</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Cricket Actual Teams</value>
+    </caseValues>
+    <fields>
+        <help><!-- Denotes Total Match Points of Team. --></help>
+        <label><!-- Match Points --></label>
+        <name>Match_Points__c</name>
+    </fields>
+    <fields>
+        <help><!-- Denotes number of matches lost. --></help>
+        <label><!-- Matches Lost --></label>
+        <name>Matches_Lost__c</name>
+    </fields>
+    <fields>
+        <help><!-- Denotes number of matches played. --></help>
+        <label><!-- Matches Played --></label>
+        <name>Matches_Played__c</name>
+    </fields>
+    <fields>
+        <help><!-- Denotes number of matches won --></help>
+        <label><!-- Matches Won --></label>
+        <name>Matches_Won__c</name>
+    </fields>
+    <fields>
+        <help><!-- Denotes NRR pf Team. --></help>
+        <label><!-- Net Run Rate --></label>
+        <name>Net_Run_Rate__c</name>
+    </fields>
+    <fields>
+        <help><!-- Stores Team Description. --></help>
+        <label><!-- Team&apos;s Description --></label>
+        <name>Team_Description__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

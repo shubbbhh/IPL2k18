@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>Stores actual team details like Name.Description, Points statistics etc.</description>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>false</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>false</enableSharing>
+    <enableStreamingApi>false</enableStreamingApi>
+    <fields>
+        <fullName>Match_Points__c</fullName>
+        <defaultValue>0</defaultValue>
+        <description>Denotes Total Match Points of Team.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Denotes Total Match Points of Team.</inlineHelpText>
+        <label>Match Points</label>
+        <precision>2</precision>
+        <required>true</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Matches_Lost__c</fullName>
+        <defaultValue>0</defaultValue>
+        <description>Denotes number of matches lost.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Denotes number of matches lost.</inlineHelpText>
+        <label>Matches Lost</label>
+        <precision>2</precision>
+        <required>true</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Matches_Played__c</fullName>
+        <defaultValue>0</defaultValue>
+        <description>Denotes number of matches played.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Denotes number of matches played.</inlineHelpText>
+        <label>Matches Played</label>
+        <precision>2</precision>
+        <required>true</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Matches_Won__c</fullName>
+        <defaultValue>0</defaultValue>
+        <description>Denotes number of matches won.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Denotes number of matches won</inlineHelpText>
+        <label>Matches Won</label>
+        <precision>2</precision>
+        <required>true</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Net_Run_Rate__c</fullName>
+        <defaultValue>0.0</defaultValue>
+        <description>Denotes NRR pf Team.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Denotes NRR pf Team.</inlineHelpText>
+        <label>Net Run Rate</label>
+        <precision>6</precision>
+        <required>true</required>
+        <scale>4</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Team_Description__c</fullName>
+        <description>Stores Team Description.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Stores Team Description.</inlineHelpText>
+        <label>Team&apos;s Description</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>10</visibleLines>
+    </fields>
+    <label>Cricket Actual Team</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>Matches_Played__c</columns>
+        <columns>Matches_Won__c</columns>
+        <columns>Matches_Lost__c</columns>
+        <columns>Net_Run_Rate__c</columns>
+        <columns>Match_Points__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <nameField>
+        <label>Cricket Team Name</label>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Cricket Actual Teams</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
+</CustomObject>

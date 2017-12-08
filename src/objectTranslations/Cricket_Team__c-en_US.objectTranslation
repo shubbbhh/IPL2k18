@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Cricket Team</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Cricket Teams</value>
+    </caseValues>
+    <fields>
+        <help><!-- Cricket Team&apos;s Owner Key --></help>
+        <label><!-- Cricket Team&apos;s Owner Key --></label>
+        <name>Cricket_Team_Owner_Key__c</name>
+    </fields>
+    <fields>
+        <help><!-- Specifies whether team is locked or not. Locked team is allowed to play, and is eligible for further considerations. --></help>
+        <label><!-- Is Team Locked? --></label>
+        <name>Is_Team_Locked__c</name>
+    </fields>
+    <fields>
+        <help><!-- Store your Team&apos;s Contact Number. --></help>
+        <label><!-- Owner&apos;s Contact --></label>
+        <name>Owner_Contact__c</name>
+    </fields>
+    <fields>
+        <help><!-- Store email address of your team. --></help>
+        <label><!-- Owner&apos;s Email --></label>
+        <name>Owner_Email__c</name>
+    </fields>
+    <fields>
+        <help><!-- Owner&apos;s Name --></help>
+        <label><!-- Owner&apos;s Name --></label>
+        <name>Owner_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- Stores Team Owner&apos;s unique code value. --></help>
+        <label><!-- Owner&apos;s Unique Code --></label>
+        <name>Owners_Unique_Code__c</name>
+    </fields>
+    <fields>
+        <help><!-- Points Source - Future Predictions --></help>
+        <label><!-- Points Source - Future Predictions --></label>
+        <name>PointsSource_FuturePredictions__c</name>
+    </fields>
+    <fields>
+        <help><!-- Game Prediction Points --></help>
+        <label><!-- Points Source - Game Prediction --></label>
+        <name>PointsSource_GamePrediction__c</name>
+    </fields>
+    <fields>
+        <help><!-- Points Source - Team Player --></help>
+        <label><!-- Points Source - Team Player --></label>
+        <name>PointsSource_TeamPlayer__c</name>
+    </fields>
+    <fields>
+        <help><!-- Rollup summary field to summarize result of child Cricket Team Player&apos;s Playing XI. --></help>
+        <label><!-- Team&apos;s Playing XI Count --></label>
+        <name>Team_Playing_XI_Count__c</name>
+    </fields>
+    <fields>
+        <help><!-- Total Owner&apos;s Points --></help>
+        <label><!-- Total Owner&apos;s Points --></label>
+        <name>Total_Owner_Points__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

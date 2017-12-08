@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Cricket Match Player&apos;s Statistics</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Cricket Match Player&apos;s Statistics</value>
+    </caseValues>
+    <fields>
+        <help><!-- Assisted Wickets Taken Points --></help>
+        <label><!-- Assisted Wickets Taken Points --></label>
+        <name>Assisted_Wickets_Taken_Points__c</name>
+    </fields>
+    <fields>
+        <help><!-- Assisted Wickets Taken in this match. --></help>
+        <label><!-- Assisted Wickets Taken --></label>
+        <name>Assisted_Wickets_Taken__c</name>
+    </fields>
+    <fields>
+        <help><!-- Total 4s scored --></help>
+        <label><!-- 4s --></label>
+        <name>Boundaries4s__c</name>
+    </fields>
+    <fields>
+        <help><!-- Boundaries6s --></help>
+        <label><!-- 6s --></label>
+        <name>Boundaries6s__c</name>
+    </fields>
+    <fields>
+        <help><!-- Store match detail for player performance --></help>
+        <label><!-- Cricket Match Detail --></label>
+        <name>Cricket_Match_Detail__c</name>
+        <relationshipLabel><!-- Cricket Match Player&apos;s Statistics --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Stores Player detail. --></help>
+        <label><!-- Cricket Player --></label>
+        <name>Cricket_Player__c</name>
+        <relationshipLabel><!-- Cricket Match Player&apos;s Statistics --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Economy Rate Points --></help>
+        <label><!-- Economy Rate Points --></label>
+        <name>Economy_Rate_Points__c</name>
+    </fields>
+    <fields>
+        <help><!-- Economy Rate --></help>
+        <label><!-- Economy Rate --></label>
+        <name>Economy_Rate__c</name>
+    </fields>
+    <fields>
+        <help><!-- Maiden Over Points --></help>
+        <label><!-- Maiden Over Points --></label>
+        <name>Maiden_Over_Points__c</name>
+    </fields>
+    <fields>
+        <help><!-- Maiden Overs --></help>
+        <label><!-- Maiden Overs --></label>
+        <name>Maiden_Overs__c</name>
+    </fields>
+    <fields>
+        <help><!-- Man Of The Match Points --></help>
+        <label><!-- Man Of The Match Points --></label>
+        <name>Man_Of_The_Match_Points__c</name>
+    </fields>
+    <fields>
+        <help><!-- Man of this match. --></help>
+        <label><!-- Man Of The Match --></label>
+        <name>Man_Of_The_Match__c</name>
+    </fields>
+    <fields>
+        <help><!-- Run Scored Points --></help>
+        <label><!-- Run Scored Points --></label>
+        <name>Run_Scored_Points__c</name>
+    </fields>
+    <fields>
+        <help><!-- Runs scored in this match. --></help>
+        <label><!-- Run Scored --></label>
+        <name>Run_Scored__c</name>
+    </fields>
+    <fields>
+        <help><!-- True if scored (&gt;=100) --></help>
+        <label><!-- 100s --></label>
+        <name>Scored_100__c</name>
+    </fields>
+    <fields>
+        <help><!-- True if scored (&gt;50 and &lt;100) --></help>
+        <label><!-- 50s --></label>
+        <name>Scored_50__c</name>
+    </fields>
+    <fields>
+        <help><!-- Strike Rate Points --></help>
+        <label><!-- Strike Rate Points --></label>
+        <name>Strike_Rate_Points__c</name>
+    </fields>
+    <fields>
+        <help><!-- Strike Rate --></help>
+        <label><!-- Strike Rate --></label>
+        <name>Strike_Rate__c</name>
+    </fields>
+    <fields>
+        <help><!-- Taken3Wickets --></help>
+        <label><!-- 3w --></label>
+        <name>Taken3Wickets__c</name>
+    </fields>
+    <fields>
+        <help><!-- Taken5Wickets --></help>
+        <label><!-- 5w --></label>
+        <name>Taken5Wickets__c</name>
+    </fields>
+    <fields>
+        <help><!-- Total Points --></help>
+        <label><!-- Total Points --></label>
+        <name>Total_Points__c</name>
+    </fields>
+    <fields>
+        <help><!-- Wickets Taken Points --></help>
+        <label><!-- Wickets Taken Points --></label>
+        <name>Wickets_Taken_Points__c</name>
+    </fields>
+    <fields>
+        <help><!-- Wickets taken in this match, --></help>
+        <label><!-- Wickets Taken --></label>
+        <name>Wickets_Taken__c</name>
+    </fields>
+    <fields>
+        <help><!-- 100s Points --></help>
+        <label><!-- 100s Points --></label>
+        <name>X100s_Points__c</name>
+    </fields>
+    <fields>
+        <help><!-- 3w Points --></help>
+        <label><!-- 3w Points --></label>
+        <name>X3w_Points__c</name>
+    </fields>
+    <fields>
+        <help><!-- 4s Points --></help>
+        <label><!-- 4s Points --></label>
+        <name>X4s_Points__c</name>
+    </fields>
+    <fields>
+        <help><!-- 50s Points --></help>
+        <label><!-- 50s Points --></label>
+        <name>X50s_Points__c</name>
+    </fields>
+    <fields>
+        <help><!-- 5w Points --></help>
+        <label><!-- 5w Points --></label>
+        <name>X5w_Points__c</name>
+    </fields>
+    <fields>
+        <help><!-- 6s Points --></help>
+        <label><!-- 6s Points --></label>
+        <name>X6s_Points__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

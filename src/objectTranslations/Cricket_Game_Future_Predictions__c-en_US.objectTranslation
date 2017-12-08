@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Cricket Game Future Predictions</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Cricket Game Future Predictions</value>
+    </caseValues>
+    <fields>
+        <help><!-- Actual Final&apos;s Qualifier --></help>
+        <label><!-- Actual Final&apos;s Qualifier --></label>
+        <name>Actual_Finals_Qualifier__c</name>
+    </fields>
+    <fields>
+        <help><!-- Actual Game Winner --></help>
+        <label><!-- Actual Game Winner --></label>
+        <name>Actual_Game_Winner__c</name>
+    </fields>
+    <fields>
+        <help><!-- Actual Semi&apos;s Qualifier --></help>
+        <label><!-- Actual Semi&apos;s Qualifier --></label>
+        <name>Actual_Semis_Qualifier__c</name>
+    </fields>
+    <fields>
+        <help><!-- Final&apos;s Qualifier Points --></help>
+        <label><!-- Final&apos;s Qualifier Points --></label>
+        <name>Finals_Qualifier_Points__c</name>
+    </fields>
+    <fields>
+        <help><!-- Game Winner Points --></help>
+        <label><!-- Game Winner Points --></label>
+        <name>Game_Winner_Points__c</name>
+    </fields>
+    <fields>
+        <help><!-- Owner --></help>
+        <label><!-- Owner --></label>
+        <name>Owner__c</name>
+        <relationshipLabel><!-- Cricket Game Future Predictions --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Predicted Final&apos;s Qualifier --></help>
+        <label><!-- Predicted Final&apos;s Qualifier --></label>
+        <name>Predicted_Finals_Qualifier__c</name>
+    </fields>
+    <fields>
+        <help><!-- Predicted Game Winner --></help>
+        <label><!-- Predicted Game Winner --></label>
+        <name>Predicted_Game_Winner__c</name>
+        <relationshipLabel><!-- Game Predicted Final Winner --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Predicted Semi&apos;s Qualifier --></help>
+        <label><!-- Predicted Semi&apos;s Qualifier --></label>
+        <name>Predicted_Semis_Qualifier__c</name>
+    </fields>
+    <fields>
+        <help><!-- Semi&apos;s Qualifier Points --></help>
+        <label><!-- Semi&apos;s Qualifier Points --></label>
+        <name>Semi_Qualifier_Points__c</name>
+    </fields>
+    <fields>
+        <help><!-- Total Future Prediction Points --></help>
+        <label><!-- Total Future Prediction Points --></label>
+        <name>Total_Future_Prediction_Points__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

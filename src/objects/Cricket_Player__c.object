@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>Stores Individual Player related data.</description>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>false</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>false</enableSharing>
+    <enableStreamingApi>false</enableStreamingApi>
+    <fields>
+        <fullName>Actual_Team__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Stores Team value for player.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Stores Team value for player.</inlineHelpText>
+        <label>Actual Team</label>
+        <referenceTo>Cricket_Actual_Team__c</referenceTo>
+        <relationshipLabel>Cricket Players</relationshipLabel>
+        <relationshipName>Cricket_Players</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Player_Description__c</fullName>
+        <description>Stores player&apos;s description including achievements etc,</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Stores player&apos;s description including achievements etc,</inlineHelpText>
+        <label>Player&apos;s Description</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>10</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Player_Nationality__c</fullName>
+        <description>Stores nationality of player.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Stores nationality of player.</inlineHelpText>
+        <label>Player&apos;s Nationality</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Indian</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Overseas</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Player_Type__c</fullName>
+        <description>Stores type of player.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Stores type of player</inlineHelpText>
+        <label>Player Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Batsman</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Bowler</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>All Rounder</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Total_Points__c</fullName>
+        <description>Total Points</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Total Points</inlineHelpText>
+        <label>Total Points</label>
+        <summarizedField>Cricket_Match_Player_Statistics__c.Total_Points__c</summarizedField>
+        <summaryForeignKey>Cricket_Match_Player_Statistics__c.Cricket_Player__c</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <label>Cricket Player</label>
+    <listViews>
+        <fullName>All</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <nameField>
+        <label>Player Name</label>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Cricket Players</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
+</CustomObject>

@@ -1,0 +1,472 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>Cricket Game Prediction</description>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>false</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>false</enableSharing>
+    <enableStreamingApi>false</enableStreamingApi>
+    <fields>
+        <fullName>Actual_Cricket_Toss_Winner__c</fullName>
+        <description>Actual Cricket Toss Winner</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Actual Cricket Toss Winner</inlineHelpText>
+        <label>Actual Cricket Toss Winner</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Actual_Highest_Run_Scorer__c</fullName>
+        <description>Actual Highest Run Scorer</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Actual Highest Run Scorer</inlineHelpText>
+        <label>Actual Highest Run Scorer</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Actual_Highest_Wicket_Taker__c</fullName>
+        <description>Actual Highest Wicket Taker</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Actual Highest Wicket Taker</inlineHelpText>
+        <label>Actual Highest Wicket Taker</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Actual_Longest_Six_In_Meters__c</fullName>
+        <defaultValue>0</defaultValue>
+        <description>Actual Longest Six (In Meters)</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Actual Longest Six (In Meters)</inlineHelpText>
+        <label>Actual Longest Six (In Meters)</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Actual_Match_Winner__c</fullName>
+        <description>Actual Match Winner</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Actual Match Winner</inlineHelpText>
+        <label>Actual Match Winner</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Actual_Total_6s_In_Match__c</fullName>
+        <defaultValue>0</defaultValue>
+        <description>Actual Total 6s (In Match)</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Actual Total 6s (In Match)</inlineHelpText>
+        <label>Actual Total 6s (In Match)</label>
+        <precision>2</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Actual_Total_Runs_In_Match__c</fullName>
+        <defaultValue>0</defaultValue>
+        <description>Actual Total 6s (In Match)</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Actual Total 6s (In Match)</inlineHelpText>
+        <label>Actual Total Runs (In Match)</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Actual_Total_Wickets_In_Match__c</fullName>
+        <defaultValue>0</defaultValue>
+        <description>Actual Total Wickets.(In Match)</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Actual Total Wickets.(In Match)</inlineHelpText>
+        <label>Actual Total Wickets.(In Match)</label>
+        <precision>2</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Cricket_Match__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Cricket Match</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Cricket Match</inlineHelpText>
+        <label>Cricket Match</label>
+        <referenceTo>Cricket_Match_Details__c</referenceTo>
+        <relationshipLabel>Cricket Game Predictions(Match Details)</relationshipLabel>
+        <relationshipName>Cricket_Game_PredictionsForMatch</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Owner__c</fullName>
+        <description>Owner of Cricket Team</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Owner of Cricket Team</inlineHelpText>
+        <label>Owner</label>
+        <referenceTo>Cricket_Team__c</referenceTo>
+        <relationshipLabel>Cricket Game Predictions</relationshipLabel>
+        <relationshipName>Cricket_Game_Predictions</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>Points_Highest_Run_Scorer__c</fullName>
+        <description>Highest Run Scorer Points</description>
+        <externalId>false</externalId>
+        <formula>IF(  Predicted_Highest_Run_Scorer__c  =  Actual_Highest_Run_Scorer__c , 500, 0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Highest Run Scorer Points</inlineHelpText>
+        <label>Points Highest Run Scorer</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Points_Highest_Wicket_Taker__c</fullName>
+        <description>Highest Wicket Taker Points</description>
+        <externalId>false</externalId>
+        <formula>IF(Predicted_Highest_Wicket_Taker__c =  Actual_Highest_Wicket_Taker__c , 500,0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Highest Wicket Taker Points</inlineHelpText>
+        <label>Points Highest Wicket Taker</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Points_Longest_Six_In_Meters__c</fullName>
+        <description>Longest Six (In Meters) Points</description>
+        <externalId>false</externalId>
+        <formula>IF(Predicted_Longest_Six_In_Meters__c =  Actual_Longest_Six_In_Meters__c , 200,  IF((Predicted_Longest_Six_In_Meters__c &gt;= (Actual_Longest_Six_In_Meters__c - 2)) &amp;&amp;(Predicted_Longest_Six_In_Meters__c &lt;= (Actual_Longest_Six_In_Meters__c + 2)),100,0))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Longest Six (In Meters) Points</inlineHelpText>
+        <label>Points Longest Six (In Meters)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Points_Match_Winner__c</fullName>
+        <description>Points Match Winner</description>
+        <externalId>false</externalId>
+        <formula>IF(  Predicted_Match_Winner__c =   Actual_Match_Winner__c , 250, 0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Points Match Winner</inlineHelpText>
+        <label>Points Match Winner</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Points_Toss_Winner__c</fullName>
+        <description>Points Toss Winner</description>
+        <externalId>false</externalId>
+        <formula>IF( Predicted_Toss_Winner__c =   Actual_Cricket_Toss_Winner__c , 200, 0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Points Toss Winner</inlineHelpText>
+        <label>Points Toss Winner</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Points_Total_6s_In_Match__c</fullName>
+        <description>Points Total 6s (In Match)</description>
+        <externalId>false</externalId>
+        <formula>IF( Actual_Total_6s_In_Match__c =  Predicted_Total_6s_In_Match__c, 500,
+IF((Predicted_Total_6s_In_Match__c &gt;= Actual_Total_6s_In_Match__c - 2) &amp;&amp; (Predicted_Total_6s_In_Match__c &gt;= Actual_Total_6s_In_Match__c - 2),200,0))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Points Total 6s (In Match)</inlineHelpText>
+        <label>Points Total 6s (In Match)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Points_Total_Runs_In_Match__c</fullName>
+        <description>Points Total Runs (In Match)</description>
+        <externalId>false</externalId>
+        <formula>IF( Predicted_Total_Runs_In_Match__c =  Actual_Total_Runs_In_Match__c , 1000,
+IF((Predicted_Total_Runs_In_Match__c &gt;= (Actual_Total_Runs_In_Match__c - 25)) &amp;&amp; (Predicted_Total_Runs_In_Match__c &lt;= (Actual_Total_Runs_In_Match__c + 25)),500,
+IF((Predicted_Total_Runs_In_Match__c &gt;= (Actual_Total_Runs_In_Match__c - 50)) &amp;&amp; (Predicted_Total_Runs_In_Match__c &lt;= (Actual_Total_Runs_In_Match__c + 50)),200,0)))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Points Total Runs (In Match)</inlineHelpText>
+        <label>Points Total Runs (In Match)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Points_Total_Wickets_In_Match__c</fullName>
+        <description>Points Total Wickets.(In Match)</description>
+        <externalId>false</externalId>
+        <formula>IF( Actual_Total_Wickets_In_Match__c =  Predicted_Total_Wickets_In_Match__c , 500, 0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Points Total Wickets.(In Match)</inlineHelpText>
+        <label>Points Total Wickets (In Match)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Predicted_Highest_Run_Scorer__c</fullName>
+        <description>Predicted Highest Run Scorer</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Predicted Highest Run Scorer</inlineHelpText>
+        <label>Predicted Highest Run Scorer</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Predicted_Highest_Wicket_Taker__c</fullName>
+        <description>Predicted Highest Wicket Taker</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Predicted Highest Wicket Taker</inlineHelpText>
+        <label>Predicted Highest Wicket Taker</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Predicted_Longest_Six_In_Meters__c</fullName>
+        <defaultValue>0</defaultValue>
+        <description>Predicted Longest Six (In Meters)</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Predicted Longest Six (In Meters)</inlineHelpText>
+        <label>Predicted Longest Six (In Meters)</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Predicted_Match_Winner__c</fullName>
+        <description>Predicted Match Winner</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Predicted Match Winner</inlineHelpText>
+        <label>Predicted Match Winner</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Predicted_Toss_Winner__c</fullName>
+        <description>Predicted Toss Winner</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Predicted Toss Winner</inlineHelpText>
+        <label>Predicted Toss Winner</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Predicted_Total_6s_In_Match__c</fullName>
+        <defaultValue>0</defaultValue>
+        <description>Predicted Total 6s (In Match)</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Predicted Total 6s (In Match)</inlineHelpText>
+        <label>Predicted Total 6s (In Match)</label>
+        <precision>2</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Predicted_Total_Runs_In_Match__c</fullName>
+        <defaultValue>0</defaultValue>
+        <description>Predicted Total Runs (In Match)</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Predicted Total Runs (In Match)</inlineHelpText>
+        <label>Predicted Total Runs (In Match)</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Predicted_Total_Wickets_In_Match__c</fullName>
+        <defaultValue>0</defaultValue>
+        <description>Predicted Total Wickets.(In Match)</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Predicted Total Wickets.(In Match)</inlineHelpText>
+        <label>Predicted Total Wickets.(In Match)</label>
+        <precision>2</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Total_Game_Prediction_Points__c</fullName>
+        <description>Total Game Prediction Points</description>
+        <externalId>false</externalId>
+        <formula>Points_Highest_Run_Scorer__c +  Points_Highest_Wicket_Taker__c +  Points_Longest_Six_In_Meters__c +  Points_Match_Winner__c +  Points_Toss_Winner__c +  Points_Total_6s_In_Match__c +  Points_Total_Runs_In_Match__c +  Points_Total_Wickets_In_Match__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Total Game Prediction Points</inlineHelpText>
+        <label>Total Game Prediction Points</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <label>Cricket Game Prediction</label>
+    <listViews>
+        <fullName>All</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <nameField>
+        <displayFormat>CGP-{00000}</displayFormat>
+        <label>Cricket Game Prediction Name</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Cricket Game Predictions</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ControlledByParent</sharingModel>
+</CustomObject>

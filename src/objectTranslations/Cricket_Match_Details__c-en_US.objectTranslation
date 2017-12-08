@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Cricket Match Details</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Cricket Match Details</value>
+    </caseValues>
+    <fields>
+        <help><!-- Match Condition --></help>
+        <label><!-- Match Condition --></label>
+        <name>Match_Condition__c</name>
+        <picklistValues>
+            <masterLabel>Cancelled</masterLabel>
+            <translation><!-- Cancelled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Normal</masterLabel>
+            <translation><!-- Normal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Stopped(Due to rain)</masterLabel>
+            <translation><!-- Stopped(Due to rain) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tied</masterLabel>
+            <translation><!-- Tied --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Stores match number. --></help>
+        <label><!-- Match Number --></label>
+        <name>Match_Number__c</name>
+    </fields>
+    <fields>
+        <help><!-- Match&apos;s Prediction Locked? --></help>
+        <label><!-- Match&apos;s Prediction Locked? --></label>
+        <name>Match_Prediction_Locked__c</name>
+    </fields>
+    <fields>
+        <help><!-- Match Result Statement --></help>
+        <label><!-- Match Result Statement --></label>
+        <name>Match_Result_Statement__c</name>
+    </fields>
+    <fields>
+        <help><!-- Match Schedule --></help>
+        <label><!-- Match Schedule --></label>
+        <name>Match_Schedule__c</name>
+    </fields>
+    <fields>
+        <help><!-- Match Venue --></help>
+        <label><!-- Match Venue --></label>
+        <name>Match_Venue__c</name>
+    </fields>
+    <fields>
+        <help><!-- References Playing Team from Actual Team object. --></help>
+        <label><!-- Team 1 --></label>
+        <name>Team_1__c</name>
+        <relationshipLabel><!-- Cricket Actual Team 1 --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- References Playing Actual Team 2 --></help>
+        <label><!-- Team 2 --></label>
+        <name>Team_2__c</name>
+        <relationshipLabel><!-- Cricket Actual Team 2 --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Store Team that won match. --></help>
+        <label><!-- Winning Team --></label>
+        <name>Winning_Team__c</name>
+        <relationshipLabel><!-- Cricket Match Details (Winning Team) --></relationshipLabel>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

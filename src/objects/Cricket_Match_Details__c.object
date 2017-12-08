@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>Store Match Statistics</description>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>false</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>false</enableSharing>
+    <enableStreamingApi>false</enableStreamingApi>
+    <fields>
+        <fullName>Match_Condition__c</fullName>
+        <description>Match Condition</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Match Condition</inlineHelpText>
+        <label>Match Condition</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Normal</fullName>
+                    <default>true</default>
+                </value>
+                <value>
+                    <fullName>Cancelled</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Stopped(Due to rain)</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Tied</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Match_Number__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <description>Stores match number.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Stores match number.</inlineHelpText>
+        <label>Match Number</label>
+        <length>50</length>
+        <required>true</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>Match_Prediction_Locked__c</fullName>
+        <description>Match&apos;s Prediction Locked?</description>
+        <externalId>false</externalId>
+        <formula>IF($System.OriginDateTime  &lt;  Match_Schedule__c,false,true)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Match&apos;s Prediction Locked?</inlineHelpText>
+        <label>Match&apos;s Prediction Locked?</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Match_Result_Statement__c</fullName>
+        <description>Match Result Statement</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Match Result Statement</inlineHelpText>
+        <label>Match Result Statement</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Match_Schedule__c</fullName>
+        <description>Match Schedule</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Match Schedule</inlineHelpText>
+        <label>Match Schedule</label>
+        <required>true</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Match_Venue__c</fullName>
+        <description>Match Venue</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Match Venue</inlineHelpText>
+        <label>Match Venue</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Team_1__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>References Playing Team from Actual Team object.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>References Playing Team from Actual Team object.</inlineHelpText>
+        <label>Team 1</label>
+        <referenceTo>Cricket_Actual_Team__c</referenceTo>
+        <relationshipLabel>Cricket Actual Team 1</relationshipLabel>
+        <relationshipName>Cricket_Actual_Team_1</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Team_2__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>References Playing Actual Team 2</description>
+        <externalId>false</externalId>
+        <inlineHelpText>References Playing Actual Team 2</inlineHelpText>
+        <label>Team 2</label>
+        <referenceTo>Cricket_Actual_Team__c</referenceTo>
+        <relationshipLabel>Cricket Actual Team 2</relationshipLabel>
+        <relationshipName>Cricket_Actual_Team_2</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Winning_Team__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>References actual team&apos;s record according to result of match</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Store Team that won match.</inlineHelpText>
+        <label>Winning Team</label>
+        <referenceTo>Cricket_Actual_Team__c</referenceTo>
+        <relationshipLabel>Cricket Match Details (Winning Team)</relationshipLabel>
+        <relationshipName>Cricket_Winning_Team</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <label>Cricket Match Details</label>
+    <listViews>
+        <fullName>All</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <nameField>
+        <displayFormat>CMD-{0000}</displayFormat>
+        <label>Cricket Match Name</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Cricket Match Details</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
+</CustomObject>

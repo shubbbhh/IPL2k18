@@ -1,0 +1,8 @@
+<!-- IPL2K18_Dashbaord_MatchPoints -->
+<aura:component controller="IPL2K18_Dashboard_MatchPoints_Ctrl" access="global" implements="force:hasRecordId,force:lightningQuickAction,flexipage:availableForAllPageTypes">
+    <ltng:require scripts="{!$Resource.ChartJS}" afterScriptsLoaded="{!c.doinit}"/>
+    <div style="width:40%;height:40%">  
+        <canvas aura:id="barChart" width="400" height="400"/>
+    </div>
+    Hello
+</aura:component>

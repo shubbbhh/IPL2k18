@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Cricket Player</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Cricket Players</value>
+    </caseValues>
+    <fields>
+        <help><!-- Stores Team value for player. --></help>
+        <label><!-- Actual Team --></label>
+        <name>Actual_Team__c</name>
+        <relationshipLabel><!-- Cricket Players --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Stores player&apos;s description including achievements etc, --></help>
+        <label><!-- Player&apos;s Description --></label>
+        <name>Player_Description__c</name>
+    </fields>
+    <fields>
+        <help><!-- Stores nationality of player. --></help>
+        <label><!-- Player&apos;s Nationality --></label>
+        <name>Player_Nationality__c</name>
+        <picklistValues>
+            <masterLabel>Indian</masterLabel>
+            <translation><!-- Indian --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Overseas</masterLabel>
+            <translation><!-- Overseas --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Stores type of player --></help>
+        <label><!-- Player Type --></label>
+        <name>Player_Type__c</name>
+        <picklistValues>
+            <masterLabel>All Rounder</masterLabel>
+            <translation><!-- All Rounder --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Batsman</masterLabel>
+            <translation><!-- Batsman --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bowler</masterLabel>
+            <translation><!-- Bowler --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Total Points --></help>
+        <label><!-- Total Points --></label>
+        <name>Total_Points__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>
