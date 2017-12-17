@@ -6,6 +6,5 @@
 		var xhr = new XMLHttpRequest();
 		xhr.open('GET','');
 		console.log('xhr'+xhr);
-		
 	}
 })
